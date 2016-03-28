@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp">
+
+    <ImageView
+        android:id="@+id/musicImage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/a"
+        android:adjustViewBounds="true"
+        android:maxHeight="55dp"
+        android:maxWidth="55dp" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:duplicateParentState="true"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:paddingLeft="0dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:textSize="15dp"
+        android:textColor="#ffccb58e"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp" />
+
+</LinearLayout>
+</LinearLayout>

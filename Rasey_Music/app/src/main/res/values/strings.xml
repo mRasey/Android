@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rasey Music</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_load">LoadActivity</string>
+
+    <string name="action_settings">设置</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_web_music">WebMusicActivity</string>
+</resources>
